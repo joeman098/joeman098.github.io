@@ -1,10 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Test</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="./carousel.css" rel="stylesheet">
+
 </head>
+
 <body>
-	<h1>test test test</h1>
+
+    <nav class="navbar navbar-expand-lg  bg-dark">
+        <a class="navbar-brand" href="#">Joseph F Logue III</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <!-- <li class="nav-item active">
+                    <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li> -->
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">About Me. <span class="text-muted">Who am I ?</span></h2>
+                <p class="lead">Having been enamored with technology ever since I was a child taking apart things and learning how they functioned. 
+                    After years of management in the restaurant industry I decided to make a change, I've recently wrapped up a full stack developer program.
+                     Now I’m looking for a company to grow with developing robust and industry changing applications. This Simple page is a living resume to my endevours.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 push-md-5">
+                <h2 class="featurette-heading">Connect with me <span class="text-muted">See for yourself.</span></h2>
+                <p class="lead">Please connect with me on any of these platforms</p>
+               <a href="https://www.linkedin.com/in/josephlogue3/">
+                <img class="rounded-circle" src=./Images/if_linkedin_252090.png alt=" placeholder image" width="140" height="140">
+            </a> 
+                <img class="rounded-circle" src=./Images/if_overflow_386674.png alt=" placeholder image" width="140" height="140">
+                <a href="https://github.com/joeman098" >
+                    <img class="rounded-circle" src=./Images/if_github2_252065.png alt=" placeholder image" width="140" height="140">
+                </a>
+               
+            </div>
+
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">And lastly, My project Portfolio <span class="text-muted">Heres what I have been working on.</span></h2>
+                <p class="lead"> Here is a few highlights of projects I have worked on </p>
+            </div>
+
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt=" placeholder image" width="140" height="140">
+                <h2>S0cil3r</h2>
+                <p>The vision behind this project was to make new ways for audiences to interact with twitch streams.</p>
+                <p><a class="btn btn-secondary" href="https://s0cial3r.herokuapp.com/" role="button">View details &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt=" placeholder image" width="140" height="140">
+                <h2>Gif Search</h2>
+                <p>This was my first attempt at intergating a third party API search and displaying the results</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+
+        <!-- FOOTER -->
+        <footer>
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2018 Joseph F Logue III &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
 </body>
+
 </html>
