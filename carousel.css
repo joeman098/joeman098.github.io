@@ -5,7 +5,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
-    background-image: url("./images/background.png");
+    background-image: url("./Images/background.png");
     padding-bottom: 3rem;
     color: hsl(46, 100%, 59%);
 }
